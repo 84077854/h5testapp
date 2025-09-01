@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.linklauncher.app-mergeDebugResources-40:/layout/activity_history.xml",
+        "source": "com.example.linklauncher.app-main-43:/layout/activity_history.xml"
+    },
+    {
+        "merged": "com.example.linklauncher.app-mergeDebugResources-40:/layout/activity_main.xml",
+        "source": "com.example.linklauncher.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.linklauncher.app-mergeDebugResources-40:/layout/item_history.xml",
+        "source": "com.example.linklauncher.app-main-43:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.example.linklauncher.app-mergeDebugResources-40:/layout/activity_webview.xml",
+        "source": "com.example.linklauncher.app-main-43:/layout/activity_webview.xml"
+    }
+]

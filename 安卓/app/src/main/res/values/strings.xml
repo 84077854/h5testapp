@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LinkLauncher</string>
+    <string name="title_webview">网页</string>
+    <string name="title_history">历史记录</string>
+    <string name="hint_url">输入 H5 链接</string>
+    <string name="hint_ua">输入 UA 标识（可选）</string>
+    <string name="btn_open">跳转</string>
+    <string name="btn_history">历史记录</string>
+    <string name="hint_url_multi">输入链接</string>
+    <string name="hint_ua_multi">输入标识（UA）</string>
+    <string name="btn_clear_cache">清除缓存</string>
+    <string name="toast_cache_cleared">已清除缓存</string>
+    <string name="hint_partner_token">输入 partner_token（可选）</string>
+</resources>
+
+
