@@ -27,6 +27,15 @@ class WebViewActivity : ComponentActivity() {
 
         setupWebView(binding.webView, ua)
 
+        binding.btnBack.setOnClickListener {
+            if (binding.webView.canGoBack()) {
+                binding.webView.goBack()
+            } else {
+                finish()
+            }
+        }
+        binding.btnClose.setOnClickListener { finish() }
+
         if (url.isNotEmpty()) {
             binding.webView.loadUrl(url)
             saveHistory(url, ua)

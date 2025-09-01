@@ -3,7 +3,9 @@ local
 color purple_500
 color teal_200
 drawable ic_launcher_foreground
+id btnBack
 id btnClearCache
+id btnClose
 id btnDelete
 id btnHistory
 id btnOpen
@@ -14,6 +16,7 @@ id inputPartnerLayout
 id inputUaLayout
 id inputUrlLayout
 id recyclerView
+id topBar
 id tvTime
 id tvUa
 id tvUrl

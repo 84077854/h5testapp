@@ -5,7 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
-import android.widget.FrameLayout;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -17,19 +18,32 @@ import java.lang.String;
 
 public final class ActivityWebviewBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final LinearLayout rootView;
+
+  @NonNull
+  public final TextView btnBack;
+
+  @NonNull
+  public final TextView btnClose;
+
+  @NonNull
+  public final LinearLayout topBar;
 
   @NonNull
   public final WebView webView;
 
-  private ActivityWebviewBinding(@NonNull FrameLayout rootView, @NonNull WebView webView) {
+  private ActivityWebviewBinding(@NonNull LinearLayout rootView, @NonNull TextView btnBack,
+      @NonNull TextView btnClose, @NonNull LinearLayout topBar, @NonNull WebView webView) {
     this.rootView = rootView;
+    this.btnBack = btnBack;
+    this.btnClose = btnClose;
+    this.topBar = topBar;
     this.webView = webView;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -54,13 +68,32 @@ public final class ActivityWebviewBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnBack;
+      TextView btnBack = ViewBindings.findChildViewById(rootView, id);
+      if (btnBack == null) {
+        break missingId;
+      }
+
+      id = R.id.btnClose;
+      TextView btnClose = ViewBindings.findChildViewById(rootView, id);
+      if (btnClose == null) {
+        break missingId;
+      }
+
+      id = R.id.topBar;
+      LinearLayout topBar = ViewBindings.findChildViewById(rootView, id);
+      if (topBar == null) {
+        break missingId;
+      }
+
       id = R.id.webView;
       WebView webView = ViewBindings.findChildViewById(rootView, id);
       if (webView == null) {
         break missingId;
       }
 
-      return new ActivityWebviewBinding((FrameLayout) rootView, webView);
+      return new ActivityWebviewBinding((LinearLayout) rootView, btnBack, btnClose, topBar,
+          webView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

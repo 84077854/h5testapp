@@ -3193,7 +3193,9 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnBack
 id btnClearCache
+id btnClose
 id btnDelete
 id btnHistory
 id btnOpen
@@ -3572,6 +3574,7 @@ id titleDividerNoCustom
 id title_template
 id toggle
 id top
+id topBar
 id topPanel
 id touch_outside
 id transitionToEnd

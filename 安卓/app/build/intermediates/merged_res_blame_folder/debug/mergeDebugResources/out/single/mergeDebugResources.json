@@ -1,26 +1,30 @@
 [
     {
-        "merged": "com.example.linklauncher.app-debug-41:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.linklauncher.app-main-43:/drawable/ic_launcher_foreground.xml"
+        "merged": "/Users/fjc/.gradle/daemon/8.7/com.example.linklauncher.app-debug-41:/layout_activity_main.xml.flat",
+        "source": "/Users/fjc/.gradle/daemon/8.7/com.example.linklauncher.app-main-43:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.linklauncher.app-debug-41:/layout_activity_main.xml.flat",
-        "source": "com.example.linklauncher.app-main-43:/layout/activity_main.xml"
+        "merged": "/Users/fjc/.gradle/daemon/8.7/com.example.linklauncher.app-debug-41:/layout_item_history.xml.flat",
+        "source": "/Users/fjc/.gradle/daemon/8.7/com.example.linklauncher.app-main-43:/layout/item_history.xml"
     },
     {
-        "merged": "com.example.linklauncher.app-debug-41:/layout_item_history.xml.flat",
-        "source": "com.example.linklauncher.app-main-43:/layout/item_history.xml"
+        "merged": "/Users/fjc/.gradle/daemon/8.7/com.example.linklauncher.app-debug-41:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/fjc/.gradle/daemon/8.7/com.example.linklauncher.app-main-43:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.linklauncher.app-debug-41:/layout_activity_history.xml.flat",
-        "source": "com.example.linklauncher.app-main-43:/layout/activity_history.xml"
+        "merged": "/Users/fjc/.gradle/daemon/8.7/com.example.linklauncher.app-debug-41:/layout_activity_history.xml.flat",
+        "source": "/Users/fjc/.gradle/daemon/8.7/com.example.linklauncher.app-main-43:/layout/activity_history.xml"
     },
     {
         "merged": "com.example.linklauncher.app-debug-41:/layout_activity_webview.xml.flat",
         "source": "com.example.linklauncher.app-main-43:/layout/activity_webview.xml"
     },
     {
-        "merged": "com.example.linklauncher.app-debug-41:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.linklauncher.app-main-43:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/fjc/.gradle/daemon/8.7/com.example.linklauncher.app-debug-41:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/fjc/.gradle/daemon/8.7/com.example.linklauncher.app-main-43:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/fjc/.gradle/daemon/8.7/com.example.linklauncher.app-debug-41:/layout_activity_webview.xml.flat",
+        "source": "/Users/fjc/.gradle/daemon/8.7/com.example.linklauncher.app-main-43:/layout/activity_webview.xml"
     }
 ]
